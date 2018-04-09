@@ -1,0 +1,159 @@
+@media (max-width: 1100px){
+    
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    #laptop{
+        margin-top: 600px;
+    }
+    
+    .title-laptop{
+    margin-right: 0px;
+}
+   
+    .computer img{
+       display: none;
+    }
+    .social-networks{
+  
+    justify-content:center;
+}
+    .btn{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    }
+    
+    .slipping-up a{
+    position: relative;
+    top: 150px;
+    }
+    
+    footer{
+        height: 300px;
+    }
+
+}
+    
+
+@media (max-width: 900px){
+    .title-info{
+        display: none;
+    }
+    .container-info{
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+ 
+    .box-info a{
+        padding: 30px;
+    }
+    .text-info{
+    margin-top: 20px;
+        
+}
+.text-info h3{
+    padding-top: 20px;
+}
+   
+    #content{
+        margin-top: 300px;
+    }
+    .logo-laptop{
+    position: static;
+}
+}
+
+@media (max-width: 700px){
+    
+    h1{
+        font-size: 45px;
+        
+    }
+    
+        .menu__icon{
+    display: inline-block;
+            
+  }
+    
+ .menu__links {
+     
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 130px;
+    background-color: #000;
+    z-index: 1000;
+    overflow: auto;
+     opacity: 0.9;
+  }
+  
+  .menu__links a {
+      font-size: 50px;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+  }
+    .menu__links a:hover{
+        color: #fafafa;
+    }
+
+    
+    .box-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+    
+    input[type=text]{
+    
+    margin-bottom: 20px;
+  }
+    .switch {
+        display: none;
+    } 
+    .slipping a{
+        top: -250px;
+    }
+    .slipping-two a{
+        display: none;
+    }
+    .button-group ul{
+        width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+     #laptop{
+        margin-top: 700px;
+    }
+}
+
+@media (max-width: 400px){
+    
+     input[type=text]{
+    width:220px;
+    
+  }
+    .p-header{
+        margin-top: 0px;
+    }
+    .box-card{
+        width: 300px;
+        height: 220px;
+    }
+    .text-card p{
+    padding-top: 0px;
+    
+}
+}
+
